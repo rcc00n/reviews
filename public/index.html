@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GreenRent – Rate Us</title>
+  <!-- Font Awesome for optional icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHq6oXv5Z1FL8N6KT86XnEuE72gN8LG6bKPmTsF+rZ2bBk+vd2kr+Ii8nEGzYahZU7XrZXNw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Hero section with sea coast background -->
+  <header class="hero">
+    <h1>GreenRent</h1>
+  </header>
+
+  <!-- Main content container -->
+  <div class="rating-container">
+    <h2>How was your experience?</h2>
+    <p>Please share your feedback by selecting a star rating below:</p>
+
+    <div class="stars" id="starContainer">
+      <span class="star" data-value="1">&#9733;</span>
+      <span class="star" data-value="2">&#9733;</span>
+      <span class="star" data-value="3">&#9733;</span>
+      <span class="star" data-value="4">&#9733;</span>
+      <span class="star" data-value="5">&#9733;</span>
+    </div>
+
+    <button id="submitRatingBtn" class="submit-btn">Submit Rating</button>
+  </div>
+
+  <script src="rating.js"></script>
+</body>
+</html>
