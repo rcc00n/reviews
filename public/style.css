@@ -382,3 +382,103 @@ body {
   background-color: #007f00;
   transform: translateY(-2px);
 }
+
+/* Container styling (as before) */
+.thankyou-container {
+  max-width: 650px;
+  margin: 80px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9fff9;
+  border: 1px solid #e0f7e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 127, 0, 0.1);
+}
+
+.thankyou-header {
+  margin-bottom: 30px;
+}
+
+.checkmark {
+  font-size: 80px;
+  color: #00b300;
+  margin-bottom: 20px;
+}
+
+.thankyou-header h1 {
+  font-size: 2rem;
+  color: #007f00;
+  margin-bottom: 10px;
+}
+
+.review-links {
+  display: flex;
+  justify-content: space-evenly; /* or space-around / space-between */
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+/* Common styling for all buttons */
+.review-btn {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+/* Logo images inside the buttons */
+.review-logo {
+  height: 24px; /* adjust as needed */
+  margin-right: 8px;
+}
+
+/* Hover effect */
+.review-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Google brand color */
+.review-btn.google {
+  background-color: #dd4b39;
+}
+.review-btn.google:hover {
+  background-color: #b93424;
+}
+
+/* Yandex brand color (yellow) */
+.review-btn.yandex {
+  background-color: #ffcc00;
+  color: #000; /* black text for contrast */
+}
+.review-btn.yandex:hover {
+  background-color: #ffb700;
+}
+
+/* 2GIS brand color (greenish) */
+.review-btn.dgistwo {
+  background-color: #1eb900;
+}
+.review-btn.dgistwo:hover {
+  background-color: #159000;
+}
+
+/* Footer */
+.footer {
+  margin-top: 30px;
+}
+.footer p {
+  margin-bottom: 8px;
+  color: #333;
+}
+.footer a {
+  color: #007f00;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
